@@ -1,5 +1,7 @@
 package com.rm.datastructures.Arrays;
 
+import static com.rm.datastructures.Arrays.SortingUtils.swap;
+
 public class BubbleSort {
 
     public static int[] sort(int[] arr) {
@@ -17,13 +19,6 @@ public class BubbleSort {
         }
 
         return arr;
-    }
-
-     private static void swap(int[] arr, int i, int j) {
-        if (i == j) {return;}
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
     }
 
 }
