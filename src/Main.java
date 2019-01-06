@@ -1,5 +1,6 @@
 
 import com.rm.datastructures.Arrays.BubbleSort;
+import com.rm.datastructures.Arrays.InsertionSort;
 import com.rm.datastructures.Arrays.SelectionSort;
 
 public class Main {
@@ -21,6 +22,10 @@ public class Main {
         System.out.println(" ");
         System.out.println("===SelectionSort====");
         SelectionSort.sort(intArray);
+        System.out.println("====================");
+        System.out.println(" ");
+        System.out.println("===InsertionSort====");
+        InsertionSort.sort(intArray);
         System.out.println("====================");
         System.out.println(" ");
 
